@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-heading: 'Bricolage Grotesque', sans-serif;
+    --font-body: 'Space Mono', monospace;
+    --background: #1a2e05;
+    --foreground: #d2d8d3;
+    --primary: #000000;
+    --primary-foreground: #d2d8d3;
+    --secondary: #3b515e;
+    --secondary-foreground: #e90b0b;
+    --accent: #157701;
+    --accent-foreground: #1e2424;
+    --destructive: #de0202;
+    --destructive-foreground: #ffffff;
+    --muted: #de0202;
+    --muted-foreground: #a3a3a3;
+    --card: #e01313;
+    --card-foreground: #ccffff;
+    --popover: #004d0d;
+    --popover-foreground: #e01313;
+    --border: #1a2e05;
+    --input: #004d0d;
+    --ring: #ccffff;
+    --radius: 0rem;
+  }
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  .menu-transition {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0; /* Inicialmente el menú está cerrado */
+  }
+
+  .menu-open {
+    max-height: 500px; /* Ajusta este valor para que sea suficiente para el contenido del menú */
+  }
+}
