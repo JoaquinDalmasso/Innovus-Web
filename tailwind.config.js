@@ -12,6 +12,7 @@ export default {
         body: ['var(--font-body)', ...fontFamily.mono]
       },
       colors: {
+        navbar: '#373837',
         border: 'var(--border)',
         input: 'var(--input)',
         ring: 'var(--ring)',
