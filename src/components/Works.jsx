@@ -5,7 +5,7 @@ import sopMan from '../assets/soporteMan.webp'
 
 function Works() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 ">
+    <section id='trabajos' className="w-full py-12 md:py-24 lg:py-32 ">
         <div className="container px-4 md:px-6 mx-auto">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Nuestros trabajos</h2>
@@ -20,7 +20,7 @@ function Works() {
                 width="400"
                 height="300"
                 alt="Pieza 1"
-                className="aspect-video overflow-hidden rounded-xl object-cover"
+                className="border border-lime-700 shadow-sm shadow-lime-400 aspect-video overflow-hidden rounded-xl object-cover"
               />
               <h3 className="text-lg font-medium">Valvula de alivio</h3>
               <p className="text-muted-foreground text-sm">Diseñada a medida para instalación</p>
@@ -31,7 +31,7 @@ function Works() {
                 width="400"
                 height="300"
                 alt="Part 2"
-                className="aspect-video overflow-hidden rounded-xl object-cover"
+                className="border border-lime-700 shadow-sm shadow-lime-400 aspect-video overflow-hidden rounded-xl object-cover"
               />
               <h3 className="text-lg font-medium">Valvula flotante</h3>
               <p className="text-muted-foreground text-sm">Desarrollada en PP para líquidos corrosivos</p>
@@ -42,7 +42,7 @@ function Works() {
                 width="400"
                 height="300"
                 alt="Part 3"
-                className="aspect-video overflow-hidden rounded-xl object-cover"
+                className="border border-lime-700 shadow-sm shadow-lime-400 aspect-video overflow-hidden rounded-xl object-cover"
               />
               <h3 className="text-lg font-medium">Soporte de manguera</h3>
               <p className="text-muted-foreground text-sm">Remplazo de pieza importada en surtidores</p>
