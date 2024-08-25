@@ -12,7 +12,6 @@ function Hero() {
       <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-{/* Suggested code may be subject to a license. Learn more: ~LicenseLog:536432376. */}
             Impresiones 3D <br/> 
             {' '}
             <ReactTyped className="bg-gradient-to-r from-lime-500 to-lime-800 text-transparent bg-clip-text" strings={["rapidas","adaptadas","economicas","complejas"]} typeSpeed={40} loop />
