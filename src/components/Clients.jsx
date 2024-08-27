@@ -8,7 +8,7 @@ function Clients() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Algunos de nuestros clientes</h2>
-            <p className="text-muted-foreground md:text-xl">
+            <p className=" md:text-xl">
               Algunos clientes que utilizan nuestros productos en distintas etapas de su fabricación.
             </p>
           </div>
@@ -23,7 +23,7 @@ function Clients() {
                 style={{ aspectRatio: "64/64", objectFit: "cover" }}
               />
               <blockquote className="text-center">
-                <p className="text-muted-foreground">
+                <p className="">
                   Empresa especializada en la producción de tanques para depósito de combustibles. Siendo pioneros en su producción en América del Sur. En la actualidad fabricamn alrededor de 2.000 tanques por año tanto en acero como en polietileno de diferentes capacidades.
                 </p>
                 <cite className="mt-4 block text-sm font-medium not-italic">
@@ -41,7 +41,7 @@ function Clients() {
                 style={{ aspectRatio: "64/64", objectFit: "cover" }}
               />
               <blockquote className="text-center">
-                <p className="text-muted-foreground">
+                <p className="">
                 Empresa con más de 45 años de historia siendo actualmente Líderes Nacionales en la fabricación de Maquinaria Agrícola y con 4 plantas industriales en Argentina. Con equipos que se comercializan nacional e internacionalmente.
                 </p>
                 <cite className="mt-4 block text-sm font-medium not-italic">

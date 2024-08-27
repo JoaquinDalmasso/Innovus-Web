@@ -10,7 +10,7 @@ function Contact() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Contactanos</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[900px]  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   ¿Tienes un proyecto en mente? Ponte en contacto con nosotros para recibir el mejor asesoramiento para adaptar nuestros productos a tus necesidades.
 
                 </p>

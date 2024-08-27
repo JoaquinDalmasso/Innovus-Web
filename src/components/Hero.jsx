@@ -16,7 +16,7 @@ function Hero() {
             {' '}
             <ReactTyped className="bg-gradient-to-r from-lime-500 to-lime-800 text-transparent bg-clip-text" strings={["rapidas","adaptadas","economicas","complejas"]} typeSpeed={40} loop />
           </h1>
-          <p className="text-muted-foreground md:text-xl">
+          <p className="md:text-xl">
             Impulsa tu creatividad y da vida a tus ideas con nuestros modelos impresos en 3D. 
             Contamos con una amplia variedad de materiales para todo tipo de soluciones.
             <br/> 
