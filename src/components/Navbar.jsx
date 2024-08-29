@@ -8,9 +8,9 @@ function Navbar() {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className="bg-navbar px-4 lg:px-6 py-4 flex items-center justify-between sticky top-0 z-10">
+    <header className="bg-black px-4 lg:px-6 py-4 flex items-center justify-between sticky top-0 z-10">
       <a href="#inicio" className="flex items-center gap-2">
-        <InnovusLogo className="h-6 w-6 text-primary-foreground" />
+        {/*<InnovusLogo className="h-6 w-6 text-primary-foreground" />*/}
         <span className="text-xl font-bold text-primary-foreground">Innovus</span>
       </a>
 

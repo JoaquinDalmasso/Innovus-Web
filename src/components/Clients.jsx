@@ -4,7 +4,7 @@ import MetalforLogo from '../assets/metalforLogo.webp'
 
 function Clients() {
   return (
-    <section id='clientes' className="w-full bg-lime-900 py-12 md:py-24 lg:py-32">
+    <section id='clientes' className="w-full bg-gradient-to-t from-gray-700 to-gray-800 py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6 mx-auto">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Algunos de nuestros clientes</h2>
@@ -13,7 +13,7 @@ function Clients() {
             </p>
           </div>
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-2">
-            <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 shadow">
+            <div className="flex flex-col items-center gap-4 rounded-lg bg-gray-900 p-6 shadow">
               <img
                 src={BBLogo}
                 width="64"
@@ -31,7 +31,7 @@ function Clients() {
                 </cite>
               </blockquote>
             </div>
-            <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 shadow">
+            <div className="flex flex-col items-center gap-4 rounded-lg bg-gray-900 p-6 shadow">
               <img
                 src={MetalforLogo}
                 width="64"
